@@ -40,10 +40,10 @@ body {
 
 /* HERO IMAGE */
 .hero-image {
-    flex: 1;
+    flex: 0 0 auto; /* hindi nag-expand */
     display: flex;
-    justify-content: center; /* center image horizontally in its box */
-    align-items: center; /* center image vertically in its box */
+    justify-content: flex-end; /* ilagay sa right edge ng hero */
+    align-items: flex-start; /* align top ng image sa text */
 }
 
 .hero-image img {
