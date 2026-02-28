@@ -40,10 +40,10 @@ body {
 
 /* HERO IMAGE */
 .hero-image {
-    flex: 0 0 auto; /* hindi nag-expand */
+    flex: 0 0 auto; /* hindi mag-expand */
     display: flex;
-    justify-content: flex-end; /* ilagay sa right edge ng hero */
-    align-items: flex-start; /* align top ng image sa text */
+    justify-content: flex-end; /* right side */
+    align-items: flex-start; /* top ng container */
 }
 
 .hero-image img {
