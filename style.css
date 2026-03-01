@@ -398,3 +398,23 @@ body {
         width: 80%;
     }
 }
+
+.contact-button {
+    display: inline-block;
+    background-color: #4F46E5;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none; /* dapat none */
+    font-weight: bold;
+    margin-top: 15px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer; /* siguradong pointer sa hover */
+}
+
+.contact-button:hover {
+    background-color: #4338CA;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+}
