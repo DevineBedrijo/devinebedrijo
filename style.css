@@ -364,3 +364,32 @@ body {
     transform: scale(1.05);
     box-shadow: 0 15px 35px rgba(0,0,0,0.12), 0 25px 50px rgba(0,0,0,0.06);
 }
+
+.education-images {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    gap: 20px; /* space between images para hindi dikit */
+    flex: 1;
+    min-width: 150px;
+    justify-content: flex-start;
+    align-items: center; /* center images */
+}
+
+.education-images img {
+    width: 180px; /* mas malaki para ramdam ang effects */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
+    transition: all 0.4s ease;
+}
+
+.education-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12), 0 25px 50px rgba(0,0,0,0.06);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .education-images img {
+        width: 80%;
+    }
+}
