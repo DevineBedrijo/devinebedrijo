@@ -192,3 +192,10 @@ body {
         margin-bottom: 20px;
     }
 }
+
+.work-image-single img {
+    width: 200px; /* adjust kung gusto mas malaki/maliit */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
