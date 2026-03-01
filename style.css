@@ -255,14 +255,14 @@ body {
 .education-images-horizontal {
     display: flex;
     flex-direction: row; /* horizontal line */
-    gap: 20px; /* space sa pagitan ng bawat image */
-    justify-content: flex-start; /* o center kung gusto naka-center */
+    gap: 20px; /* space between images */
+    justify-content: flex-start; /* pwede ring center */
     align-items: flex-start;
-    flex-wrap: wrap; /* kapag maliit na screen, automatic mag-wrap sa next line */
+    flex-wrap: wrap; /* auto-wrap sa maliit na screen */
 }
 
 .education-images-horizontal img {
-    width: 150px; /* adjust size para ramdam ang effects */
+    width: 150px; /* proporsyonal na size */
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
     transition: all 0.4s ease;
@@ -276,14 +276,16 @@ body {
 /* Mobile responsive */
 @media (max-width: 768px) {
     .education-images-horizontal {
-        flex-direction: column; /* stack vertically sa mobile */
+        flex-direction: column; /* stacked vertically sa mobile */
         align-items: center;
     }
 
     .education-images-horizontal img {
-        width: 80%;
+        width: 80%; /* scale sa mobile */
     }
 }
+
+    
 
 
 /* Contact container flex */
