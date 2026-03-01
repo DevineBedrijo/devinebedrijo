@@ -453,3 +453,25 @@ body {
 .hero-button:hover {
     transform: translateY(-3px) scale(1.05);
 }
+
+.thank-you-section {
+    margin-top: 80px;
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #4F46E5, #6366F1);
+    color: white;
+    border-radius: 20px;
+}
+
+.thank-you-section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.thank-you-section p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
