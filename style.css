@@ -263,7 +263,7 @@ body {
 }
 
 .education-images img {
-    width: 220px; /* adjust size kung kailangan */
+    width: 150px; /* bago: 220px → ngayon mas maliit at proporsyonal */
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
     transition: all 0.4s ease;
