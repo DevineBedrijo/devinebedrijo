@@ -199,3 +199,40 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
     margin-bottom: 20px;
 }
+
+
+/* Skills image */
+.skills-image img {
+    width: 200px; /* adjust size */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Skills cards below image */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-card {
+    flex: 1 1 200px;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.12), 0 25px 50px rgba(0,0,0,0.06);
+}
+
+.skill-card h3 {
+    margin: 0;
+}
