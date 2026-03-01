@@ -437,3 +437,19 @@ body {
     transform: translateY(-3px) scale(1.05); /* slight zoom + lift */
     box-shadow: 0 12px 20px rgba(0,0,0,0.12); /* hover shadow */
 }
+
+.hero-button {
+    display: inline-block !important;
+    background: #4F46E5 !important;
+    color: #fff !important;
+    padding: 12px 30px !important;
+    border-radius: 25px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15) !important;
+    transition: 0.3s ease !important;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px) scale(1.05);
+}
