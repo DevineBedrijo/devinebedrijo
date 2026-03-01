@@ -236,3 +236,18 @@ body {
 .skill-card h3 {
     margin: 0;
 }
+
+/* Skills image shadow + hover effect */
+.skills-image img {
+    width: 200px; /* adjust size kung gusto mo mas malaki/maliit */
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
+    display: block;
+    margin: 0 auto 20px auto;
+    transition: all 0.4s ease;
+}
+
+.skills-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12), 0 25px 50px rgba(0,0,0,0.06);
+}
