@@ -418,3 +418,22 @@ body {
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 12px 20px rgba(0,0,0,0.12);
 }
+
+.hero-button {
+    display: inline-block; /* para maging box */
+    background-color: #4F46E5; /* kulay ng button */
+    color: white; /* text color */
+    padding: 12px 30px; /* size ng button */
+    border-radius: 25px; /* rounded corners */
+    text-decoration: none; /* walang underline */
+    font-weight: bold;           
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1); /* shadow */
+    transition: all 0.3s ease;
+    cursor: pointer; /* pointer cursor sa hover */
+}
+
+.hero-button:hover {
+    background-color: #4338CA; /* darker on hover */
+    transform: translateY(-3px) scale(1.05); /* slight zoom + lift */
+    box-shadow: 0 12px 20px rgba(0,0,0,0.12); /* hover shadow */
+}
