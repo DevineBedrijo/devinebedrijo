@@ -252,18 +252,11 @@ body {
     box-shadow: 0 15px 35px rgba(0,0,0,0.12), 0 25px 50px rgba(0,0,0,0.06);
 }
 
-
 /* Education Images */
-.education-images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-education-images img {
-    width: 120px; /* bagong size, mas proporsyonal */
+.education-images img {
+    width: 120px; /* maliit at uniform */
+    max-width: 100%; /* hindi lalagpas sa container */
+    height: auto; /* panatilihin ang aspect ratio */
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 20px 40px rgba(0,0,0,0.05);
     transition: all 0.4s ease;
@@ -274,6 +267,7 @@ education-images img {
     box-shadow: 0 15px 35px rgba(0,0,0,0.12), 0 25px 50px rgba(0,0,0,0.06);
 }
 
+/* Responsive for mobile */
 @media (max-width: 768px) {
     .education-images {
         flex-direction: column;
@@ -281,9 +275,12 @@ education-images img {
     }
 
     .education-images img {
-        width: 80%; /* adjust for mobile */
+        width: 80%;
+        height: auto;
     }
 }
+
+
 
 
 /* Contact container flex */
